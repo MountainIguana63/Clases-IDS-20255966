@@ -1,0 +1,15 @@
+nombres = ["Ana", "Antonio", "Paulina", "Jose"]
+print(nombres)
+nombres[2] = "Pablo"
+print(nombres)
+nombres.append(input("Ingrese el nuevo nombre: "))
+print(nombres)
+nombres.insert(int(input("Indique el indice: ")),"Sebas")
+print(nombres)
+nombres.remove("Sebas")
+print(nombres)
+nombre_borrado =nombres.pop(int(input("Indice a borrar: "))-1)
+print(nombres)
+print(nombre_borrado)
+nombres[1].remove("o")
+print(nombres)
