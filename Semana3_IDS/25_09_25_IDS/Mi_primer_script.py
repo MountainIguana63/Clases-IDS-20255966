@@ -10,3 +10,5 @@ OOOOOOOO
 OOOOOOOOOOOO
 OOOOOOOOOL"""
 print(variable3) 
+usuario = "a"
+print(f"el usuario es {usuario}")
